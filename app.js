@@ -587,8 +587,101 @@
 // --------Chapter :14-16 Task:15 ----------
 // var phone=['Apple','Samsung','Motorolla','Nokia',''];
 
+// --------Chapter :17-20 Task:1 ----------
 
 
+// --------Chapter :17-20 Task:3 ----------
+// for (i=1;i<=10;i++){
+// document.write(i+"<br>");
+// }
 
+//--------Chapter :17-20 Task:4
+// var table=prompt("Enter the number to show its multiplication table <br>");
+// var length=prompt("Enter the length multiplication table <br>");
+// document.write ("Multiplication table of "+table);
+// document.write ("Length Of Multiplication table  "+length);
+// for(a=1;a<=length;a++)
+//  {
+//     document.write(table+"*"+a+"="+table*a);
+//      document.write("<br>");
+//   }
 
+//--------Chapter :17-20 Task:5
+// var fruits=["apple","banana","mango","orange","strawberry"];
+// for(i=1;i<=fruits.length;i++)
+// {
+//     document.write(fruits[i]);
+//     document.write("<br>")
+// }
+// for(i=0;i<5;i++)
+// {
+//     document.write("Element at index "+i+" is "+fruits[i]);
+//     document.write("<br>")
+// }
 
+//--------Chapter :17-20 Task:6
+// var num=2;
+// document.write("Counting: <br>");
+// for(i=1;i<=15;i++){
+//     document.write(i+" ,");
+// }
+// document.write("<br>");
+// document.write("Reverse Counting: <br>");
+// for(i=15;i>=1;i--){
+//     document.write(i+" ,");
+// }
+// document.write("<br>");
+// document.write("Even: <br>");
+
+// for(i=2;i<=20;i++){
+// if((i%2)==0){
+//     document.write(i+" ,");
+// }
+// }
+// document.write("<br>");
+// document.write("Odd: <br>");
+// for(i=1;i<=20;i++){
+//     if((i%2)==1){
+//         document.write(i+" ,");
+//     }
+//     }
+
+//--------Chapter :17-20 Task:7
+// var A=["cake","apple","cookie","chips","patties"];
+// var search=prompt("Welcome to United Bakery. What dou you want to order Sir/ Ma'am");
+// for(i=0;i<=A.length;i++){
+//     if(search==A[0]){
+//         document.write("yes");
+//     }
+// }
+
+//--------Chapter :17-20 Task:8
+// var arr = [24, 53, 78, 91, 12];
+// var largest = arr[0];
+// for (var i = 0; i < arr.length; i++) {
+//     if (largest < arr[i] ) {
+//         largest = arr[i];
+//     }
+// }
+// document.write("Array items: " +arr+" ,"+"<br>")
+// document.write("The largest number is: "+largest +"<br>");
+
+//--------Chapter :17-20 Task:9
+// var arr = [24, 53, 78, 91, 12];
+// var smallest = arr[0];
+
+// for (var i = 0; i < arr.length; i++) {
+//     if (smallest > arr[i] ) {
+//         smallest = arr[i];
+//     }
+// }
+// document.write("Array items: " +arr+" ,"+"<br>")
+// document.write("The smallest number is: "+smallest);
+
+//--------Chapter :17-20 Task:10
+// for (i=1;i<=100;i++)
+// {
+//     if((i%5)==0){
+//         document.write(i+" , ");
+//     }
+// }
